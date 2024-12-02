@@ -8,6 +8,7 @@ header{
     background-image: url("img-3/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat ;
+
 }
 
 header nav{
@@ -93,6 +94,7 @@ main section div div{
     height: 600px;
 }
 
+
 main section:nth-child(even){
     background-color: lightgray;
 }
@@ -127,6 +129,13 @@ main section div.lastsection{
     margin: 0 auto;
 }
 
+.stars{
+    background-image: url(/img-3/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
 main section:last-child div.lastsection div:first-child h2{
     padding-top: 50px;
 }
@@ -148,7 +157,9 @@ main section:last-child div.lastsection div:first-child h2{
 /* Footer */
 
 footer{
-height: 300px;
+    height: 300px;
+
+
 }
 
 footer .link {
@@ -194,6 +205,7 @@ footer hr{
 
 footer section div.contenitore-registrati{
     display: flex;
-    justify-content: space-around;
-    gap: 500px;
+    justify-content: space-between;
+    padding: 0 50px 50px;
 }
+
